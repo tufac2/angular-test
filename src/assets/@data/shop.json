@@ -1,0 +1,22 @@
+[
+    {
+        "url": "/",
+        "label": "Inicio",
+        "icon": ""
+    },
+    {
+        "url": "/products/promotions/last-units",
+        "label": "Juegos",
+        "icon": ""
+    },
+    {
+        "url": "/products/promotions/offers",
+        "label": "Ofertas",
+        "icon": ""
+    },
+    {
+        "url": "/platforms",
+        "label": "Comercios",
+        "icon": ""
+    }
+]

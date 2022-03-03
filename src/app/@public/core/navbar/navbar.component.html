@@ -1,0 +1,11 @@
+<nav class="f-navbar navbar navbar-expand-sm navbar-dark sticky-top">
+    <ul class="navbar-nav" *ngFor="let menuItem of menuItems">
+        <li class="nav-item active">
+            <a class="nav-link" [routerLink]="menuItem.url" routerLinkActive="router-link-active">
+              {{menuItem.label}}
+              <span class="sr-only">(current)</span>
+            </a>
+        </li>
+    </ul>
+</nav>
+
