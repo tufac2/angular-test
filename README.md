@@ -25,11 +25,17 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Context
 The easiest way to imagine this is like a **marketplace** of videogames that is incomplete.
 
+## Project Structure
+1. Core is the folder to store services, interfaces and components. Those artefacts should be shared among the application.
+2. Public is the Shop itself. Imagine an app like amazon where you have a public page and admin page.
+3. Assests/@data is our API Server ;-) from which we load the Menu and Products.
+
 ## What do we expect before our meeting?
 1. Install the dependencies.
 2. Make sure ``ng-serve`` is working.
-3. Feel free to reach us out before start.
-4. If you have problems with Angular Cli or any other dependency, do not worry we can share our screen.
+3. Review the routing. We have an app-module that redirect to Public Module and that one should be the one routing to other modules.
+4. Feel free to reach us out before start.
+5. If you have problems with Angular Cli or any other dependency, do not worry we can share our screen.
 
 ## What do we expect in the interview?
 1. Think loud. We do not want to have an app working. We want to see how you think and your problem-solving skills.
