@@ -1,0 +1,21 @@
+<div class="cyc-product-card">
+  <div class="product-box" (click)="handleItemSelected(gameTest)">
+    <div class="img-wrapper">
+      <div class="front">
+        <img src="{{gameTest.img}}"
+             class="img-fluid lazyload bg-img" alt="">
+      </div>
+    </div>
+    <div class="product-detail">
+      <div class="rating"><i class="fa fa-star"></i> <i class="fa fa-star"></i> <i
+        class="fa fa-star"></i> <i class="fa fa-star"></i> <i class="fa fa-star"></i></div>
+      <a href="product-page(no-sidebar).html">
+        <h6>{{gameTest.name}}</h6>
+      </a>
+      <h4>{{gameTest.price}} €</h4>
+    </div>
+  </div>
+  <div class="admin=area">
+    <button (click)="addProduct(gameTest)" type="button" class="btn btn-solid hover-solid btn-animation me-3">Seleccionar Juego</button>
+  </div>
+</div>

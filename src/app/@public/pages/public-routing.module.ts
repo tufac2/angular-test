@@ -6,7 +6,14 @@ import { PublicComponent } from './public.component';
 const routes: Routes = [
   {
     path: '',
-    component: PublicComponent
+    component: PublicComponent,
+    children: [
+      {
+        path: '',
+        loadChildren: () => import('./games/games.module')
+          .then(m => m.GamesModule)
+      }
+    ]
   }
 ];
 
